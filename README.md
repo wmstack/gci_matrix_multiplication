@@ -1,2 +1,2 @@
-# gci_matrix_multiplication
+# GCI Matrix Multiplication
 Matrix multiplication program in python
