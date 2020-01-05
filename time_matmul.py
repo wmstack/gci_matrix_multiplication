@@ -45,13 +45,13 @@ def main(use_jit, use_numpy, maxsize):
 
 def parse_args():
     
-    parser = argparse.ArgumentParser(description='Timing the curtom matrix multiplication function')
+    parser = argparse.ArgumentParser(description='Timing matrix multiplication functions. Output saved to matmul.txt, matmul_jit.txt, matmul_numpy.txt')
 
     group = parser.add_mutually_exclusive_group(required=False)
-    group.add_argument('--jit','-j', action='store_true', help='Use the numba jit optimized version')
-    group.add_argument('--numpy','-n', action='store_true', help='Use the numpy')
+    group.add_argument('--jit','-j', action='store_true', help='Time the numba jit optimized version of my matmul')
+    group.add_argument('--numpy','-n', action='store_true', help='Time the numpy version of matmul')
     
-    parser.add_argument('max', nargs='?',type=int,default=500)
+    parser.add_argument('max', nargs='?',type=int,default=500, help='loop from 10 with a step of 10 till this number, default is 500')
 
     return parser.parse_args()
 

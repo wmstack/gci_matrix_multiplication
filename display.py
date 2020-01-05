@@ -32,7 +32,7 @@ def plot_all(numpy, jit, normal):
     plt.show()
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Compare times vs input for matrix multiplication')
+    parser = argparse.ArgumentParser(description='Compare times vs input for matrix multiplication using matplotlib')
     parser.add_argument('--jit','-j', action='store_true', help='Display jit')
     parser.add_argument('--numpy','-n', action='store_true', help='Display numpy')
     parser.add_argument('--normal','-c', action='store_true', help='Display my matrix multiplication')
