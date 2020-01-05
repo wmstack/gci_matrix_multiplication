@@ -56,7 +56,7 @@ optional arguments:
 
 `python3 display.py --normal --jit --numpy`
 
-![All.png](../blob/master/gci_matrix_multiplication/All.png)
+![All.png](All.png)
 
 
 
@@ -64,18 +64,18 @@ optional arguments:
 
 `python3 display.py --jit --numpy`
 
-![NumpyJit.png](../blob/master/gci_matrix_multiplication/NumpyJit.png)
+![NumpyJit.png](NumpyJit.png)
 
 ## My matmul normally and optimized by jit
 
 `python3 display.py --normal --jit`
 
-![JitNormal.png](../blob/master/gci_matrix_multiplication/JitNormal.png)
+![JitNormal.png](JitNormal.png)
 
 ## My matmul and Numpy Matmul
 
 `python3 display.py --numpy --normal`
 
-![NumpyNormal.png](../blob/master/gci_matrix_multiplication/NumpyNormal.png)
+![NumpyNormal.png](NumpyNormal.png)
 
 
