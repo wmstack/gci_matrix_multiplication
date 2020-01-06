@@ -71,7 +71,3 @@ optional arguments:
 `python3 display.py --numpy --normal`
 
 ![NumpyNormal.png](NumpyNormal.png)
-
-# Numpy is faster, alot faster
-
-
