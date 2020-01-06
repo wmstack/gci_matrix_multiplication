@@ -6,8 +6,6 @@ Matrix multiplication program written in python3 and compared to jit optimized v
 
 `matmul.py` contains the functions and their `numba.jit` optimized versions.
 
-
-
 `time_matmul.py` measures the time it takes in seconds to do matrix multiplication on NxN matrices on themeselves. It stores the input size N, and the time it takes to do a matmul on a random NxN matrix by itself, for input sizes from 10 until `max` argument. The results are stored in:
 
 * `matmul.txt` for my matrix multiplication
@@ -30,7 +28,6 @@ optional arguments:
   -h, --help   show this help message and exit
   --jit, -j    Time the numba jit optimized version of my matmul
   --numpy, -n  Time the numpy version of matmul
-
 ```
 
  `display.py` renders the measurements from these files using matplotlib
@@ -47,7 +44,6 @@ optional arguments:
   --jit, -j     Display jit
   --numpy, -n   Display numpy
   --normal, -c  Display my matrix multiplication
-
 ```
 
 # Results
@@ -57,8 +53,6 @@ optional arguments:
 `python3 display.py --normal --jit --numpy`
 
 ![All.png](All.png)
-
-
 
 ## Numpy and my matmul optimized with jit
 
@@ -72,10 +66,12 @@ optional arguments:
 
 ![JitNormal.png](JitNormal.png)
 
-## My matmul and Numpy Matmul
+## My matmul and Numpy matmul
 
 `python3 display.py --numpy --normal`
 
 ![NumpyNormal.png](NumpyNormal.png)
+
+# Numpy is faster, alot faster
 
 
